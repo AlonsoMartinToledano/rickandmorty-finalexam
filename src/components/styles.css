@@ -1,0 +1,171 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.Body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.ButtonSelected {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 50px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: lightgrey;
+}
+
+.ButtonSelected:hover {
+    cursor: pointer;
+}
+
+.Character {
+    border: 1px solid black;
+    width: 15%;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 3%;
+    box-shadow: 3px 3px 3px grey;
+    text-align: left;
+    font-size: 1.2em;
+    background-color: white;
+}
+
+.CharacterImg {
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+.CurrentPage{
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #adebad, #adebad, #adebad, #eafaea);
+
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.Location:hover {
+    cursor: pointer;
+}
+
+.MagnifyingGlass {
+    font-size: 1.2em;
+}
+
+.MagnifyingGlass:hover {
+    cursor: pointer;
+}
+
+.PageButton{
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+}
+
+.PageButton:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.Pages {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-image: linear-gradient(to top, #adebad, #adebad, #adebad, #eafaea);
+}
+
+.PlanetInfo {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: left;
+    font-size: 1.2em;
+    background-color: lightgray;
+    
+    position: fixed;
+    align-self: center;
+    top: 35%
+}
+
+.Search {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 170px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.StatusButtons {
+    display: flex;
+}
+
+.X {
+    color: red;
+    border: 1px red;
+}
+
+.X:hover {
+    cursor: pointer;
+}
